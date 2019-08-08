@@ -24,4 +24,10 @@ public class IotController {
 	    
 	    return messages;
 	  }
+	  
+	  @GetMapping("/error")
+	  public String error(){
+	    
+	    return "This is the error page, for when nothing is working.";
+	  }
 }
