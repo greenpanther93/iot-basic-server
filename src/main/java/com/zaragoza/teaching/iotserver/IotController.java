@@ -25,6 +25,13 @@ public class IotController {
 	    return messages;
 	  }
 	  
+	  @GetMapping("/HelloWorld")
+	  public String helloWorld(){
+	    
+	    return "HelloWorld !";
+	  }
+		 
+	  
 	  @GetMapping("/error")
 	  public String error(){
 	    
