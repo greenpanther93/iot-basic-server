@@ -2,7 +2,7 @@
 This is a basic server for an IoT project for a class taught at the University of Montpellier (HMIN302: Embedded Systems)
 
 ## How to setup
-### Installation
+### Instalation
 the installation requires Maven (https://maven.apache.org)
 
 Inside the project repertory, run the terminal command ```mvn package``` 
@@ -16,9 +16,13 @@ Inside the project repertory, run the terminal command ```mvn package```
 
 the default port from the server to run in localhost is ```8000```. To access the server go to your web browser and go to : ```http://localhost:8000```
 
+## Server Connection
 
+To connect and retrieve the last 10 messages on the server GET:
 
-## TODO
+```localhost:8000/message-exchange/messages/```
+
+To send a message with data use the POST request for the same address.
 
 - Define project
 - Define API
