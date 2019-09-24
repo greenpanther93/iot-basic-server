@@ -2,12 +2,13 @@ package com.zaragoza.teaching.iotserver;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
 @Entity
 public class Message {
 
-	@Id
+	@Id @GeneratedValue
 	private long id;
 	
 	@Column(name="student_id")
