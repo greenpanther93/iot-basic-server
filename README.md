@@ -40,21 +40,56 @@ GET messages
 
 #### Example request
 
+make sure to incudle the '/' at the end of your request otherwise it will return false
+
 ```curl
-$ curl localhost:8080/message-exchange/messages
+$ curl localhost:8080/message-exchange/messages/
 ```
 
 #### Example response
-TODO
+
+```json
+[
+{
+  "id":10001,
+  "student_id":20130039,
+  "gps_lat":34.001,
+  "gps_long":3.235,
+  "student_message":"message1"
+},
+{"id":10002,"student_id":20130039,"gps_lat":35.001,"gps_long":3.235,"student_message":"message2"},{"id":10003,"student_id":20130039,"gps_lat":36.001,"gps_long":3.235,"student_message":"message3"}
+]
+```
+
+### Post Message information
+
+post message information
+
+#### Example request
+
+```endpoint
+POST messages
+```
+
+#### Example request
+
+make sure to incudle the '/' at the end of your request otherwise it will return false
+
+```curl
+$ curl localhost:8080/message-exchange/messages/
+```
+
+#### Example request
+
 ```json
 {
-  "id" : 1,
-  "username" : "dr.jekyl"
+  "student_id": 20130039,
+  "gps_lat": 34.001,
+  "gps_long": 3.235,
+  "student_message": "message1"
 }
 ```
 
-- Define project
-- Define API
 
 ## Problem?
 
