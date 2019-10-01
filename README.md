@@ -22,6 +22,10 @@ To connect and retrieve the last 10 messages on the server GET:
 
 ```localhost:8000/message-exchange/messages/```
 
+or
+
+```https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/```
+
 To send a message with data use the POST request for the same address.
 
 ## API
@@ -44,6 +48,12 @@ make sure to incudle the '/' at the end of your request otherwise it will return
 
 ```curl
 $ curl localhost:8080/message-exchange/messages/
+```
+
+or
+
+```curl
+$ curl https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/
 ```
 
 #### Example response
@@ -77,6 +87,12 @@ make sure to incudle the '/' at the end of your request otherwise it will return
 
 ```curl
 $ curl localhost:8080/message-exchange/messages/
+```
+
+or
+
+```curl
+$ curl https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/
 ```
 
 #### Example request
