@@ -97,6 +97,8 @@ $ curl https://hmin309-embedded-systems.herokuapp.com/message-exchange/messages/
 
 #### Example request
 
+(content-type: application/json)
+
 ```json
 {
   "student_id": 20130039,
