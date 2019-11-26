@@ -22,7 +22,7 @@ Clone project and ```Import Project``` in Eclipse as ```existing Maven Project``
 
 ### Server Connection
 
-To connect and retrieve the last 10 messages on the server GET:
+To connect and retrieve the last 20 messages on the server GET:
 
 ```localhost:8000/message-exchange/messages/```
 
