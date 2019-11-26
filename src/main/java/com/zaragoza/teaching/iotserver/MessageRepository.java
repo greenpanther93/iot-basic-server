@@ -10,6 +10,10 @@ public interface MessageRepository extends JpaRepository<Message, Long>{
 	
 	@Query(value = "select * from message",
 		   nativeQuery = true)
-	List<Message> findLastTen();
+	List<Message> findAllMessages();
+	
+	@Query(value = "select top (20) * from message	Order by id DESC",
+			   nativeQuery = true)
+		List<Message> findLast20();
 	
 }

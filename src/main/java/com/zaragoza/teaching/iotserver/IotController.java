@@ -30,7 +30,7 @@ public class IotController {
 	  @GetMapping("/message-exchange/messages/")
 	  public List<Message> retrieveMessages(){
 		    
-		    List<Message> messages = repository.findLastTen();
+		    List<Message> messages = repository.findLast20();
 		    
 		    return messages;
 	  }
