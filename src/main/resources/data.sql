@@ -30,3 +30,4 @@ insert into message(id,student_id,gps_lat,gps_long,student_message)
 values(000016,20130039,36.001,3.235,'message3');
 insert into message(id,student_id,gps_lat,gps_long,student_message)
 values(000017,20130039,36.001,3.235,'message3');
+ALTER TABLE message AUTO_INCREMENT = 000018;
