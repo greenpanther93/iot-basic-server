@@ -19,6 +19,8 @@ values(00009,20130039,36.001,3.235,'message3');
 insert into message(id,student_id,gps_lat,gps_long,student_message)
 values(000010,20130039,36.001,3.235,'message3');
 insert into message(id,student_id,gps_lat,gps_long,student_message)
+values(000011,20130039,36.001,3.235,'message3');
+insert into message(id,student_id,gps_lat,gps_long,student_message)
 values(000013,20130039,36.001,3.235,'message3');
 insert into message(id,student_id,gps_lat,gps_long,student_message)
 values(000012,20130039,36.001,3.235,'message3');
