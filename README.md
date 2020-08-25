@@ -5,20 +5,20 @@ This is a basic server for an IoT project for a class taught at the University o
 ### Instalation
 the installation requires Maven (https://maven.apache.org)
 
-Inside the project repertory, run the terminal command ```mvn package``` 
+Inside the project folder, run the terminal command 
 
-```mvn install```
+```mvn package```  (this will package the java project into an executable jar)
 
-```cd target/```
+```cd target/``` (the jar is located in the target folder of the project)
 
 ```java -jar iot-server-x.x.x-SNAPSHOT.jar```
-(select the proper iot-server version from your repertory)
+(select and run the proper iot-server version for your project)
 
 the default port from the server to run in localhost is ```8000```. To access the server go to your web browser and go to : ```http://localhost:8000```
 
 OR
 
-Clone project and ```Import Project``` in Eclipse as ```existing Maven Project```. Once the project is loaded into Eclipse, run as ```Maven Build...``` and choose ```package``` as the goal. Finally, run the project as a JAVA Application with the main activity.
+Clone project and ```Import Project``` in Eclipse as ```existing Maven Project```. Once the project is loaded into Eclipse, run as ```Maven Build...``` and choose ```package``` as the goal. Finally, run the project as a JAVA Application with the main class.
 
 ### Server Connection
 
